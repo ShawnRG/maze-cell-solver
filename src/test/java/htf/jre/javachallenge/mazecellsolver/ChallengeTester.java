@@ -119,8 +119,23 @@ class ChallengeTester {
 
         assertEquals("Y",solvedCell.getAnswer());
         assertEquals("N",solvedCell2.getAnswer());
+    }
 
+    @Test
+    void testRegexGenerationOfString(){
+        Cell cell = new Cell(
+                0,
+                0,
+                List.of("A", "B"),
+                true,
+                "yada",
+                "Provide a string that matches the regex",
+                "[a-fA-F0-9]",
+                0
+        );
 
+        SolvedCell solvedCell = challengeSolver.SolveCellChallenge(cell);
 
+        System.out.println(solvedCell);
     }
 }
