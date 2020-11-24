@@ -26,6 +26,7 @@ dependencies {
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	compile "com.github.curious-odd-man:rgxgen:1.2"
+	compile "com.google.guava:guava:30.0-jre"
 
 	compile 'org.springframework.boot:spring-boot-starter-webflux'
 	compile 'org.projectreactor:reactor-spring:1.0.1.RELEASE'

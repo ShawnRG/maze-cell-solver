@@ -130,12 +130,33 @@ class ChallengeTester {
                 true,
                 "yada",
                 "Provide a string that matches the regex",
-                "[a-fA-F0-9]",
+                "[0-3]([a-c]|[e-g]{1,2}",
                 0
         );
 
         SolvedCell solvedCell = challengeSolver.SolveCellChallenge(cell);
 
         System.out.println(solvedCell);
+    }
+
+
+    @Test
+    void testHashmapRetriever(){
+        Cell cell = new Cell(
+                0,
+                0,
+                List.of("A", "B"),
+                true,
+                "yada",
+                "Return element at index of the given hashmap",
+                "{\"index\":\"3\",\"hashmap\":\"{1=BRc, 2=VmX, 3=h7F1, 4=NEE, 5=UYw}\"}",
+                0
+        );
+
+        SolvedCell solvedCell = challengeSolver.SolveCellChallenge(cell);
+
+        System.out.println(solvedCell.getAnswer());
+
+
     }
 }
