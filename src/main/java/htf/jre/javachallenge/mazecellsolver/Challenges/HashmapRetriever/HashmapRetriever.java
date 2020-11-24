@@ -11,7 +11,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Component("Return element at index of the given hashmap")
-@Slf4j
 public class HashmapRetriever implements Challenge {
     @SneakyThrows
     @Override
@@ -23,7 +22,6 @@ public class HashmapRetriever implements Challenge {
         for (String s : param.hashmap.split(", ")) {
             hashMap.put(s.split("=")[0],s.split("=")[1]);
         }
-        log.info(hashMap.toString());
         return hashMap.get(param.index);
     }
 }

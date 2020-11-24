@@ -175,4 +175,22 @@ class ChallengeTester {
 
         System.out.println(solvedCell.getAnswer());
     }
+
+    @Test
+    void TestDayFinder() {
+        Cell cell = new Cell(
+                0,
+                0,
+                List.of("A", "B"),
+                true,
+                "yada",
+                "Answer is the first and last day of the month (MONDAY - SUNDAY) eg: MONDAY-FRIDAY",
+                "{\"month\":\"12\",\"year\":\"2019\"}",
+                0
+        );
+
+        SolvedCell solvedCell = challengeSolver.SolveCellChallenge(cell);
+
+        System.out.println(solvedCell.getAnswer());
+    }
 }
