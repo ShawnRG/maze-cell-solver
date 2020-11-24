@@ -11,6 +11,8 @@ import org.springframework.web.reactive.function.client.WebClient;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import static htf.jre.javachallenge.mazecellsolver.common.MazeResponseFactory.createResponse;
+
 @Service
 @Slf4j
 public class MazeCellSolver {
@@ -26,7 +28,6 @@ public class MazeCellSolver {
         final Maze maze = client.get().uri("/", uriBuilder -> uriBuilder.queryParam("teamId", Constants.TEAM_ID).build()).retrieve().bodyToMono(Maze.class).block();
 
         assert maze != null;
-        //log.info(maze.toString());
         final List<Cell> cellList = new MazeTraverser(maze).traverse();
 
         if (cellList.stream().noneMatch(Cell::hasChallenge)) {
@@ -63,7 +64,4 @@ public class MazeCellSolver {
         return response;
     }
 
-    private static MazeResponse createResponse(List<Cell> cells) {
-        return new MazeResponse(cells.stream().map(SolvedCellFactory::createFromCell).collect(Collectors.toList()));
-    }
 }
