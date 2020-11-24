@@ -14,13 +14,13 @@ public class PrimeFinder implements Challenge {
 
     @SneakyThrows
     @Override
-    public String solve(String params) {
+    public Object solve(String params) {
         ObjectMapper objectMapper = new ObjectMapper();
         PrimeFinderParams param =  objectMapper.readValue(params, PrimeFinderParams.class);
         return findPrimesInRange(param.start, param.end);
     }
 
-    private String findPrimesInRange(int start, int end) {
+    private Object findPrimesInRange(int start, int end) {
         List<String> primeList = new LinkedList<>();
         int count;
         for(int i = start ; i <= end ; i++)
@@ -34,6 +34,6 @@ public class PrimeFinder implements Challenge {
             if(count == 2)
                 primeList.add(String.valueOf(i));
         }
-        return String.join(" ", primeList);
+        return primeList;
     }
 }
