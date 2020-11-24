@@ -156,7 +156,23 @@ class ChallengeTester {
         SolvedCell solvedCell = challengeSolver.SolveCellChallenge(cell);
 
         System.out.println(solvedCell.getAnswer());
+    }
 
+    @Test
+    void TestMorseConversion() {
+        Cell cell = new Cell(
+                0,
+                0,
+                List.of("A", "B"),
+                true,
+                "yada",
+                "Decode the following string",
+                "-.-. ..- --.. .. . . -.. - .... .-..",
+                0
+        );
 
+        SolvedCell solvedCell = challengeSolver.SolveCellChallenge(cell);
+
+        System.out.println(solvedCell.getAnswer());
     }
 }
