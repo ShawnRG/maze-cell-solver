@@ -5,6 +5,7 @@ import htf.jre.javachallenge.mazecellsolver.Challenges.Challenge;
 import lombok.SneakyThrows;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -21,7 +22,7 @@ public class PrimeFinder implements Challenge {
     }
 
     private Object findPrimesInRange(int start, int end) {
-        List<String> primeList = new LinkedList<>();
+        List<Integer> primeList = new ArrayList<>();
         int count;
         for(int i = start ; i <= end ; i++)
         {
@@ -32,7 +33,7 @@ public class PrimeFinder implements Challenge {
                     count = count+1;
             }
             if(count == 2)
-                primeList.add(String.valueOf(i));
+                primeList.add(i);
         }
         return primeList;
     }
