@@ -21,7 +21,7 @@ public class StringReplacer implements Challenge {
         ObjectMapper objectMapper = new ObjectMapper();
         StringReplaceParams param =  objectMapper.readValue(params, StringReplaceParams.class);
 
-        List<String> arrayList = Arrays.asList(param.arrayList.replace("[","").replace("]","") .split(","));
+        List<String> arrayList = Arrays.asList(param.arrayList.replace("[","").replace("]","") .split(", "));
         arrayList.set(param.index,param.replacement);
 
         return arrayList.toString();

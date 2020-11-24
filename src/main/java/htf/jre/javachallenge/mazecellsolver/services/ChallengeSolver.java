@@ -22,13 +22,14 @@ public class ChallengeSolver {
 
 
     public SolvedCell SolveCellChallenge(Cell cell) throws NoChallengeFoundException {
+
         final Optional<Challenge> challengeOptional = Optional.ofNullable(challengeMap.get(cell.getChallenge()));
-        final var solution = challengeOptional.map(challenge -> challenge.solve(cell.getChallengeParameters())).orElseThrow(() -> new NoChallengeFoundException(cell.getChallenge()));
+        final var solution = challengeOptional.map(challenge -> challenge.solve(cell.getChallengeParameters()));
         return new SolvedCell(
                 cell.getX(),
                 cell.getY(),
                 cell.getChallengeId(),
-                solution
+                solution.orElse(null)
         );
     }
 

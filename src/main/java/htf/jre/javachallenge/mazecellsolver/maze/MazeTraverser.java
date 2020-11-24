@@ -25,16 +25,16 @@ public class MazeTraverser {
 
 
     public List<Cell> traverse() {
-        log.info("Traversing...");
+        log.trace("Traversing...");
         currentVector = Vector.zero();
 
         final Cell cell = cellMap.get(currentVector);
         List<Cell> path = new ArrayList<>();
         if (traverseCell(new Vector(-1,-1), cell, path)) {
-            log.info("found path -> {}", path);
+            log.trace("found path -> {}", path);
             return path;
         } else {
-            log.error("no path found");
+            log.warn("no path found");
             return Collections.emptyList();
         }
 
@@ -48,13 +48,13 @@ public class MazeTraverser {
         currentVector = cell.getVector();
         visitedCells.add(cell);
         path.add(cell);
-        log.info("Traversing cell, id: {} - ({}) -- With previous cell - ({})", cell.getChallengeId(), cell.getVector(), previousVector);
+        log.trace("Traversing cell, id: {} - ({}) -- With previous cell - ({})", cell.getChallengeId(), cell.getVector(), previousVector);
         if (maze.isExit(cell)) {
             return true;
         }
         final Vector position = cell.getVector();
         // do stuff
-        final List<Cell> newCells = determineNewVectorsBasedOnDirections(cell).stream().peek(directions -> log.info("new directions {}", directions)).filter(vector -> !previousVector.equals(vector)).map(cellMap::get).filter(Objects::nonNull).collect(Collectors.toList());
+        final List<Cell> newCells = determineNewVectorsBasedOnDirections(cell).stream().peek(directions -> log.trace("new directions {}", directions)).filter(vector -> !previousVector.equals(vector)).map(cellMap::get).filter(Objects::nonNull).collect(Collectors.toList());
         for (Cell newCell : newCells) {
             if (traverseCell(cell.getVector(), newCell, path)) {
                 return true;

@@ -33,7 +33,11 @@ public class Cell {
         return new Vector(x, y);
     }
 
+    public static boolean hasNoChallenge(Cell cell) {
+        return cell.getChallenge() == null;
+    }
+
     public static boolean hasChallenge(Cell cell) {
-        return cell.getChallenge() != null;
+        return !hasNoChallenge(cell);
     }
 }

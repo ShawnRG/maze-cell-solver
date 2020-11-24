@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Component("Find all the primes between the start and end index (both inclusive)")
 public class PrimeFinder implements Challenge {
@@ -33,6 +34,6 @@ public class PrimeFinder implements Challenge {
             if(count == 2)
                 primeList.add(String.valueOf(i));
         }
-        return String.valueOf(primeList);
+        return String.join(" ", primeList);
     }
 }
