@@ -5,12 +5,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.ArrayList;
+import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
 class StringReplaceParams {
     int index;
-    ArrayList list;
+    ArrayList<String> arrayList;
     String replacement;
 }
