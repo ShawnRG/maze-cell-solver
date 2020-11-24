@@ -18,12 +18,12 @@ public class MazeCellSolverApplication implements CommandLineRunner {
         SpringApplication.run(MazeCellSolverApplication.class, args);
     }
 
-    @Override
-    public void run(String... args) throws Exception {
-        while (true) {
-            cellSolver.run();
-            Thread.sleep(750);
-        }
+	@Override
+	public void run(String... args) throws Exception {
+		while(true) {
+			cellSolver.run();
+			Thread.sleep(750);
+		}
 
     }
 }
