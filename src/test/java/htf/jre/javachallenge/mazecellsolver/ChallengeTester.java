@@ -63,7 +63,7 @@ class ChallengeTester {
                 true,
                 "yada",
                 "Find all the primes between the start and end index (both inclusive)",
-                "{\"start\":48286,\"end\":48386}",
+                "{\"start\":6021,\"end\":6121}",
                 0
         );
         SolvedCell solvedCell = challengeSolver.SolveCellChallenge(cell);
@@ -87,6 +87,40 @@ class ChallengeTester {
 
         SolvedCell solvedCell = challengeSolver.SolveCellChallenge(cell);
 
-        System.out.println(solvedCell);
+        assertEquals("55 42 48 79 65 37 43 73 79 35 67 70 32 45 57 56 78 72 43",solvedCell.getAnswer());
+    }
+
+    @Test
+    void testAlphabaticOrder(){
+        Cell cell = new Cell(
+                0,
+                0,
+                List.of("A", "B"),
+                true,
+                "yada",
+                "Is the following string in alphabetical order? (Use N or Y as answer)",
+                "aaaaaaaaabbccccdddeeeeggg",
+                0
+        );
+
+        Cell cell2 = new Cell(
+                0,
+                0,
+                List.of("A", "B"),
+                true,
+                "yada",
+                "Is the following string in alphabetical order? (Use N or Y as answer)",
+                "bbbbaaa",
+                0
+        );
+
+        SolvedCell solvedCell = challengeSolver.SolveCellChallenge(cell);
+        SolvedCell solvedCell2 = challengeSolver.SolveCellChallenge(cell2);
+
+        assertEquals("Y",solvedCell.getAnswer());
+        assertEquals("N",solvedCell2.getAnswer());
+
+
+
     }
 }
