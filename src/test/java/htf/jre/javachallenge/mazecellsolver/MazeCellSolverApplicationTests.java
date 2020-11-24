@@ -8,6 +8,7 @@ class MazeCellSolverApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
