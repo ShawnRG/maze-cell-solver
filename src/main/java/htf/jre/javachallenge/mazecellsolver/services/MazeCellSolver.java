@@ -33,12 +33,13 @@ public class MazeCellSolver {
             log.warn("No Challenges");
             final MazeResponse mazeResponse = createResponse(cellList);
             final String response = submitAnswer(maze, mazeResponse);
-            log.error(response);
+            log.info(response);
         } else {
             log.info("Has challenges");
             try {
                 final MazeResponse mazeResponse = challengeSolver.solveCells(cellList);
                 final String response = submitAnswer(maze, mazeResponse);
+                log.info(response);
             } catch (NoChallengeFoundException e) {
                 log.error("Could not found challenge solver with name {}", e.getMessage());
             }
