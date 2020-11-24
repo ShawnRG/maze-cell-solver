@@ -21,18 +21,18 @@ public class ChallengeSolver {
     }
 
 
-    public SolvedCell SolveCellChallenge(Cell cell) {
+    public SolvedCell SolveCellChallenge(Cell cell) throws NoChallengeFoundException {
         final Optional<Challenge> challengeOptional = Optional.ofNullable(challengeMap.get(cell.getChallenge()));
-        final var solution = challengeOptional.map(challenge -> challenge.solve(cell.getChallengeParameters()));//.orElseThrow(() -> new NoChallengeFoundException(cell.getChallenge()))
+        final var solution = challengeOptional.map(challenge -> challenge.solve(cell.getChallengeParameters())).orElseThrow(() -> new NoChallengeFoundException(cell.getChallenge()));
         return new SolvedCell(
                 cell.getX(),
                 cell.getY(),
                 cell.getChallengeId(),
-                solution.get()
+                solution
         );
     }
 
-    public MazeResponse solveCells(Collection<Cell> cells) {
+    public MazeResponse solveCells(Collection<Cell> cells) throws NoChallengeFoundException {
          return new MazeResponse(cells.stream().map(this::SolveCellChallenge).collect(Collectors.toList()));
     }
 
