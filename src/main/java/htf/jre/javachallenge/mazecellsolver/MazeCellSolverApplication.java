@@ -20,6 +20,7 @@ public class MazeCellSolverApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		cellSolver.run();
+			cellSolver.run();
+
 	}
 }

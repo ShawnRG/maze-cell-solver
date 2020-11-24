@@ -12,5 +12,4 @@ public class SolvedCell {
     private int y;
     private String challengeId;
     private String answer;
-
 }

@@ -3,6 +3,7 @@ package htf.jre.javachallenge.mazecellsolver.config;
 import htf.jre.javachallenge.mazecellsolver.common.Constants;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.reactive.function.client.ExchangeStrategies;
 import org.springframework.web.reactive.function.client.WebClient;
 import org.springframework.web.util.DefaultUriBuilderFactory;
 import org.springframework.web.util.UriBuilder;
@@ -18,7 +19,11 @@ public class RestConfig implements UriBuilderFactory {
 
     @Bean
     public WebClient webClient() {
-        return WebClient.builder()
+        return WebClient.builder().exchangeStrategies(ExchangeStrategies.builder()
+                .codecs(configurer -> configurer
+                        .defaultCodecs()
+                        .maxInMemorySize(16 * 1024 * 1024))
+                .build())
                 .baseUrl(Constants.BASE_URL)
                 .build();
     }
