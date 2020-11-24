@@ -27,11 +27,22 @@ public class MazeCellSolver {
         //log.info(maze.toString());
         final List<Cell> cellList = new MazeTraverser(maze).traverse();
 
-        if (cellList.stream().noneMatch(Cell::isDescisionPoint)) {
-            log.warn("FOUND ONE");
-            final var response = client.post().uri("/" + maze.getMazeId()).contentType(MediaType.APPLICATION_JSON).body(BodyInserters.fromValue(createResponse(cellList))).retrieve()
-                    .bodyToMono(String.class).block();
+        if (cellList.stream().noneMatch(Cell::hasChallenge)) {
+            log.warn("No Challenges");
+            final var response = client.post().uri("/" + maze.getMazeId()).contentType(MediaType.APPLICATION_JSON).body(BodyInserters.fromValue(createResponse(cellList)))
+                    .exchangeToMono(clientResponse -> {
+                        if (clientResponse.statusCode().is5xxServerError()) {
+                            clientResponse.body((clientHttpResponse, context) -> {
+                                return clientHttpResponse.getBody();
+                            });
+                            return clientResponse.bodyToMono(String.class);
+                        }
+                        else
+                            return clientResponse.bodyToMono(String.class);
+                    }).block();
             log.error(response);
+        } else {
+            log.info("Has challenges");
         }
     }
 
