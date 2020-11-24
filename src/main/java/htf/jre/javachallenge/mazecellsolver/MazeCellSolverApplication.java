@@ -20,7 +20,7 @@ public class MazeCellSolverApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-	/*	while(true) {
+		while(true) {
 			cellSolver.run();
 			Thread.sleep(750);
 		}

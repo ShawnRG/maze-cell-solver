@@ -11,6 +11,9 @@ import java.util.stream.Collectors;
 public class MorseCodeMapper implements Challenge {
     Map<String, String> library = new HashMap<String, String>();
 
+    public MorseCodeMapper() {
+        init();
+    }
     void init(){
         library.put(".-", "A");
         library.put("-...", "B");
@@ -54,7 +57,6 @@ public class MorseCodeMapper implements Challenge {
 
     @Override
     public String solve(String params) {
-        init();
-        return Arrays.stream(params.split(" ")).map(library::get).collect(Collectors.joining());
+        return Arrays.stream(params.split(" ")).map(library::get).map(String::toLowerCase).collect(Collectors.joining());
     }
 }
