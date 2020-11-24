@@ -22,7 +22,7 @@ public class MazeCellSolverApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		while(true) {
 			cellSolver.run();
-			Thread.sleep(500);
+			Thread.sleep(1000);
 		}
 
 
