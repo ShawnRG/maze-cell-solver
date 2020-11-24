@@ -1,0 +1,1305 @@
+{
+    "mazeId": "81de62c4-4504-421c-a55a-70db801cb741",
+    "cells": [
+        {
+            "x": 0,
+            "y": 0,
+            "sides": [
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "7c845784-9408-46b5-82fc-d53d459356df",
+            "challenge": "Decode the following String. It uses a quite common encoding, find out which!",
+            "challengeParameters": "YldmOWZMODhuMnRtUkxhalM1VjZiblFqVk1qZmRUdzd5UVF1dW9zTm5mUlU=",
+            "prize": 0
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "sides": [
+                "SOUTH",
+                "WEST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "sides": [
+                "NORTH",
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "sides": [
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "a4c12db3-b464-43f5-86e2-3110f228c1b7",
+            "challenge": "Find all the primes between the start and end index (both inclusive)",
+            "challengeParameters": "{\"start\":48286,\"end\":48386}",
+            "prize": 0
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "67ae86e8-9144-4397-ade0-713ef7069127",
+            "challenge": "Convert the following String to hexadecimal value (Use a space delimiter between values)",
+            "challengeParameters": "UBHye7Csy5gp2EWVxrC",
+            "prize": 0
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "sides": [
+                "SOUTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "e16ad386-4f67-44d5-9277-84ad1a20526d",
+            "challenge": "The following string is encrypted with an ancient algorithm, invented in one of the mightiest empires of all time.Tip: one of the leaders of this empire.",
+            "challengeParameters": "sotkgkeilhg",
+            "prize": 0
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "sides": [
+                "NORTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "b91e3a6e-a800-4dce-8b1e-1eec31f48455",
+            "challenge": "Is the following number a Disarium Number? (Use N or Y as answer)",
+            "challengeParameters": "175",
+            "prize": 0
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "69e4a93c-3a19-43ba-85c4-b6cede96b9f5",
+            "challenge": "Is the following string in alphabetical order? (Use N or Y as answer)",
+            "challengeParameters": "tfotCSUyonDWnsgOWZXU3wYuXpf4AeVEIq7O0sfzEGWfO9lLC9N4vHVw90aCw7fH1UhAtS72M9OdzxtUNmcjQVXitcTiaVgQsaxN1rlGrFQWizBP4llyYrnys",
+            "prize": 0
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "sides": [
+                "SOUTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "c8c44008-e6c5-4598-9a1c-23cf2710031d",
+            "challenge": "Decode the following String. It uses a quite common encoding, find out which!",
+            "challengeParameters": "MGkzQmZ4QmtXZXZnNUE0VXlKTHlvYzQ2TUNhTndzWVNhek1Xd2U1ZzV2Vko=",
+            "prize": 0
+        },
+        {
+            "x": 0,
+            "y": 9,
+            "sides": [
+                "NORTH",
+                "SOUTH",
+                "WEST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "sides": [
+                "NORTH",
+                "SOUTH",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "sides": [
+                "NORTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "81838e47-84ae-4057-a521-f6f2de43385f",
+            "challenge": "Provide a string that matches the regex",
+            "challengeParameters": "[a-fA-F0-9]",
+            "prize": 0
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "sides": [
+                "SOUTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "1b46c4a7-b86c-477e-9657-f5d36aafb556",
+            "challenge": "Convert the following String to hexadecimal value (Use a space delimiter between values)",
+            "challengeParameters": "t06eG1ArfvrbrRXylo",
+            "prize": 0
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "sides": [
+                "NORTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "ff4c5a5d-e5c2-4794-94cc-b387050761ee",
+            "challenge": "Return element at index of the given hashmap",
+            "challengeParameters": "{\"index\":\"4\",\"hashmap\":\"{1=zWW, 2=Kin, 3=KSAy, 4=yEV, 5=aWl}\"}",
+            "prize": 0
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "sides": [
+                "SOUTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "36bedf86-7846-4930-aef8-178dbd014c59",
+            "challenge": "Convert the following String to hexadecimal value (Use a space delimiter between values)",
+            "challengeParameters": "ofj0dXaMjWbx3dF6",
+            "prize": 0
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": true,
+            "challengeId": "0d19b1aa-bbc7-433a-baea-8714b42972e0",
+            "challenge": "Brute force the password. It can contain upper/lowercase alphanumeric characters",
+            "challengeParameters": "",
+            "prize": 0
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "sides": [
+                "NORTH",
+                "SOUTH",
+                "WEST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "sides": [
+                "NORTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "3d3dea55-ef48-4fe5-b82f-12a8bf88e94f",
+            "challenge": "Find the missing numbers in the sequence. Return them as a comma-separated string",
+            "challengeParameters": "[0,1,1,5,8,13,21,34,55,89,144,377,610,1597,2584,4181,0,1,2,5,8,13,21,34,55,89,144,233,377,610,987,2584,4181,0,2,5,8,13,21,34,55,89,144,233,377,610,987,1597,4181,1,1,2,3,5,8,13,21,34,55,89,377,610,1597,2584,4181,0,1,1,3,5,8,13,21,55,89,144,233,377,610,987,4181,0,1,1,2,8,13,34,55,89,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,144,233,377,610,2584,4181,0,2,3,5,13,21,34,55,89,144,233,377,610,987,1597,4181,0,1,3,5,8,21,34,89,144,233,377,610,987,1597,2584,4181,0,2,3,8,13,21,34,55,89,144,377,610,987,1597,2584,4181,1,1,2,5,13,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,3,5,8,13,34,55,233,610,987,1597,2584,4181,0,1,2,3,13,21,34,55,89,233,377,610,987,2584,4181,0,1,1,3,5,8,13,34,55,89,144,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,21,34,55,89,233,377,987,4181,1,1,2,3,5,8,13,21,34,55,89,144,233,610,987,4181,0,1,2,3,5,8,21,34,89,144,233,610,987,1597,2584,4181,0,1,1,3,5,13,21,34,89,144,233,377,610,1597,2584,4181,0,1,1,3,5,8,21,34,55,144,377,610,987,1597,2584,4181,1,2,3,5,13,21,34,55,89,144,233,610,1597,2584,4181,0,1,3,5,8,13,34,55,89,233,377,610,987,2584,4181,0,1,1,3,8,13,21,34,89,233,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,89,144,377,1597,2584,4181,0,1,1,3,5,21,34,55,89,144,377,610,987,1597,2584,4181,0,1,1,3,13,34,55,89,144,233,377,610,987,2584,4181,0,1,1,2,3,5,8,13,34,55,144,233,987,1597,2584,4181,1,2,3,8,13,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,34,55,89,144,233,610,987,4181,1,1,3,5,8,13,34,55,89,144,233,377,610,987,4181,0,1,1,2,3,5,8,13,21,34,55,144,233,377,987,4181,0,1,3,5,8,21,34,55,89,144,233,377,610,987,2584,4181,1,2,3,5,8,21,34,55,89,233,377,610,987,1597,4181,0,1,2,3,5,8,21,89,144,233,610,987,1597,2584,4181,0,1,1,3,5,8,13,21,34,55,89,144,233,987,2584,4181,0,1,1,2,3,5,21,34,55,89,144,377,610,1597,2584,4181,0,1,1,2,5,8,13,21,55,89,233,377,987,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,233,377,1597,2584,4181,0,1,1,2,5,8,13,34,55,89,144,233,377,610,1597,2584,4181,0,1,1,2,3,5,21,34,55,89,144,377,610,987,1597,2584,4181,1,1,3,5,8,13,34,55,89,233,377,610,1597,2584,4181,1,1,2,3,8,13,21,34,55,89,233,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,233,377,1597,2584,4181,0,1,1,2,3,21,34,55,89,144,233,610,987,1597,2584,4181,0,1,1,3,5,8,13,21,34,55,233,377,610,987,2584,4181,0,1,2,3,8,13,21,34,55,89,144,233,610,987,2584,4181,0,1,2,5,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,55,89,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,34,55,144,233,377,610,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,233,377,1597,2584,4181,1,2,3,8,13,21,55,144,233,377,610,987,1597,2584,4181,0,1,1,3,5,8,13,21,34,55,89,144,610,1597,4181,0,1,1,2,5,8,13,21,55,144,233,377,987,2584,4181,0,1,2,5,8,13,21,55,89,144,233,377,610,1597,4181,0,1,1,2,3,5,13,21,55,144,233,377,610,987,2584,4181,0,1,1,2,3,5,13,21,34,55,89,144,377,610,987,2584,4181,0,1,1,3,5,8,13,21,34,89,144,233,377,610,987,4181,1,2,3,5,13,21,34,55,144,233,377,610,987,2584,4181,1,2,3,5,8,13,21,34,55,144,377,610,987,1597,2584,4181,1,2,3,5,13,21,34,55,89,144,233,610,987,1597,2584,4181,0,1,1,2,5,13,34,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,34,55,89,233,610,1597,4181,0,2,3,5,8,21,34,55,89,144,233,610,987,1597,2584,4181,0,1,1,3,13,21,34,55,89,144,610,987,1597,2584,4181,0,1,1,3,5,8,21,34,55,89,233,377,987,2584,4181,0,1,1,2,5,8,13,21,34,55,89,144,377,610,987,4181,0,1,1,2,3,5,8,21,89,233,377,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,34,89,144,233,610,987,2584,4181,0,1,1,2,3,8,13,21,34,55,89,233,377,987,2584,4181,0,1,1,3,5,21,34,89,144,233,377,610,987,2584,4181,0,1,1,2,3,5,8,13,34,89,144,233,377,610,987,1597,4181,0,1,1,3,5,8,13,21,34,89,144,377,987,2584,4181,0,1,2,3,5,13,21,34,55,89,233,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,55,144,233,377,610,987,1597,2584,4181,0,1,1,3,8,13,21,34,55,89,144,233,610,1597,2584,4181,0,1,2,3,5,8,21,34,55,144,233,377,610,987,2584,4181,0,1,1,2,3,8,13,21,55,89,233,377,1597,2584,4181,0,1,3,5,13,21,34,55,89,233,377,610,987,1597,2584,4181,1,2,3,8,13,21,34,55,144,233,377,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,34,55,144,233,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,377,987,1597,2584,4181,0,1,2,3,5,8,13,21,89,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,144,233,377,987,1597,2584,4181,0,1,1,2,3,8,13,21,34,55,89,144,233,377,1597,4181,0,1,1,2,3,5,8,13,21,55,89,144,233,377,987,1597,4181,0,1,1,2,3,5,8,13,21,89,144,233,377,987,2584,4181,1,1,2,3,5,8,13,21,34,55,144,233,610,987,1597,2584,4181,0,1,2,5,13,21,55,89,144,233,377,610,987,2584,4181,0,1,1,2,3,5,8,21,34,233,377,610,987,1597,2584,4181,0,1,1,5,8,13,21,34,55,89,144,233,377,987,2584,4181,0,1,2,5,13,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,2,3,8,34,89,144,233,377,610,1597,2584,4181,1,1,2,3,5,8,13,21,34,55,89,144,377,610,987,1597,4181,0,1,1,2,3,5,8,13,21,34,55,233,987,1597,2584,4181,0,1,2,5,8,13,21,34,89,144,233,377,610,987,1597,2584,4181,1,1,2,3,5,21,34,89,144,233,377,610,987,1597,2584,4181,1,3,5,8,21,34,55,144,233,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,21,34,55,89,144,233,377,987,2584,4181,0,1,1,2,5,8,13,21,34,89,233,610,987,1597,2584,4181,0,1,3,5,8,13,21,34,55,144,233,377,610,1597,2584,4181,0,1,1,3,8,13,21,34,89,144,233,377,610,987,1597,4181,0,1,2,3,5,8,13,21,55,89,233,377,610,987,1597,2584,4181,0,1,3,5,8,13,21,34,55,89,144,233,377,610,987,2584,4181,0,1,1,3,5,8,13,21,34,55,144,233,987,1597,4181,0,1,2,8,13,21,34,55,89,144,233,377,610,987,1597,4181,1,1,2,3,5,8,13,21,34,55,89,233,377,610,987,1597,2584,4181,1,2,3,5,8,13,34,89,144,233,610,987,1597,2584,4181,0,1,1,3,8,13,21,34,55,144,233,377,610,1597,2584,4181,0,1,1,2,5,8,13,21,55,89,144,233,377,610,2584,4181,0,1,1,2,3,5,13,34,55,89,144,377,610,987,2584,4181,0,1,1,2,3,8,13,21,55,89,377,610,987,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,233,610,987,1597,4181,1,1,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,3,5,8,21,34,55,89,144,377,610,1597,2584,4181,0,1,1,3,5,13,21,34,55,89,144,233,610,1597,2584,4181,0,1,1,2,3,5,8,21,34,55,89,144,377,987,2584,4181,0,1,1,2,3,5,13,21,89,144,233,377,610,1597,2584,4181,1,1,2,3,8,13,21,55,89,233,610,987,1597,2584,4181,1,1,2,3,5,8,13,21,34,55,89,144,233,377,1597,4181,0,1,3,5,8,13,21,55,144,233,377,610,1597,2584,4181,0,1,1,2,3,8,13,55,89,144,233,610,1597,2584,4181,0,1,1,2,3,5,13,21,34,89,377,610,987,1597,2584,4181,1,1,2,3,5,8,13,34,55,144,233,377,610,987,1597,4181,0,1,1,2,5,13,21,55,89,144,233,377,987,1597,2584,4181,0,1,1,2,13,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,5,8,13,34,55,89,144,233,377,610,987,1597,2584,4181,1,1,3,5,8,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,3,8,13,21,34,55,89,144,377,610,987,1597,4181,0,1,1,3,5,13,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,34,144,233,377,610,2584,4181,0,1,2,3,8,21,34,55,89,144,233,377,610,1597,2584,4181,0,1,1,2,3,8,13,34,55,89,144,233,610,987,1597,4181,0,2,3,5,8,13,21,34,55,144,610,987,1597,2584,4181,0,1,1,2,5,8,13,34,55,89,144,377,610,987,1597,4181,0,1,2,3,8,13,34,55,89,144,233,987,1597,2584,4181,0,1,3,5,8,13,21,55,233,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,89,144,987,1597,4181,0,1,2,3,5,8,13,21,55,89,144,233,377,610,1597,2584,4181,0,1,2,3,5,8,13,34,55,89,144,233,610,1597,2584,4181]",
+            "prize": 0
+        },
+        {
+            "x": 1,
+            "y": 9,
+            "sides": [
+                "SOUTH"
+            ],
+            "decisionPoint": true,
+            "challengeId": "1f9bf568-e255-4a53-a5c0-25ccd0138387",
+            "challenge": "Replace string at given index in arraylist",
+            "challengeParameters": "{\"index\":\"3\",\"arrayList\":\"[2Lw, 8exM, v6iB, mmE, tZ3, PSk, 4ms, SgE, dkF, jGM]\",\"replacement\":\"sCnr\"}",
+            "prize": 0
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "sides": [
+                "NORTH",
+                "WEST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "sides": [
+                "SOUTH",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": true,
+            "challengeId": "db3a2e6f-e871-4046-b0c5-b57246dede95",
+            "challenge": "Convert the following String to hexadecimal value (Use a space delimiter between values)",
+            "challengeParameters": "J88hiIAgPcQ98UI9",
+            "prize": 0
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "sides": [
+                "NORTH",
+                "SOUTH",
+                "WEST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": true,
+            "challengeId": "78152b8f-953c-4458-8f6b-8a4662e21d40",
+            "challenge": "Return element at index of the given hashmap",
+            "challengeParameters": "{\"index\":\"3\",\"hashmap\":\"{1=BRc, 2=VmX, 3=h7F1, 4=NEE, 5=UYw}\"}",
+            "prize": 0
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "sides": [
+                "NORTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "61123861-6bcf-4c9d-90cd-cca3fed2918a",
+            "challenge": "Decode the following string",
+            "challengeParameters": "-.-. ..- --.. .. . . -.. - .... .-..",
+            "prize": 0
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "sides": [
+                "SOUTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "c96dfa8e-81e4-4b4a-985e-4d696ecf5f36",
+            "challenge": "Answer is the first and last day of the month (MONDAY - SUNDAY) eg: MONDAY-FRIDAY",
+            "challengeParameters": "{\"month\":\"12\",\"year\":\"2019\"}",
+            "prize": 0
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "sides": [
+                "NORTH"
+            ],
+            "decisionPoint": true,
+            "challengeId": "b2ac4860-09fe-4b6f-ba8e-9d298d2014a6",
+            "challenge": "Answer is the first and last day of the month (MONDAY - SUNDAY) eg: MONDAY-FRIDAY",
+            "challengeParameters": "{\"month\":\"12\",\"year\":\"1996\"}",
+            "prize": 0
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "sides": [
+                "SOUTH",
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 2,
+            "y": 9,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": true,
+            "challengeId": "7959f474-deca-42e2-9236-2f661a95ff17",
+            "challenge": "Provide a string that matches the regex",
+            "challengeParameters": "[0-3]([a-c]|[e-g]{1,2})",
+            "prize": 0
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "sides": [
+                "NORTH",
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "sides": [
+                "SOUTH"
+            ],
+            "decisionPoint": true,
+            "challengeId": "907dbcea-2c24-4c3a-a3cb-29719ef7e4af",
+            "challenge": "Find all the primes between the start and end index (both inclusive)",
+            "challengeParameters": "{\"start\":33527,\"end\":33627}",
+            "prize": 0
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": true,
+            "challengeId": "0caed2b9-9934-4559-a067-cc1113555f46",
+            "challenge": "Find all the primes between the start and end index (both inclusive)",
+            "challengeParameters": "{\"start\":63647,\"end\":63747}",
+            "prize": 0
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "sides": [
+                "NORTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "975c4e3b-63ef-43a8-a6ed-975cbcd2829b",
+            "challenge": "The following string is encrypted with an ancient algorithm, invented in one of the mightiest empires of all time.Tip: one of the leaders of this empire.",
+            "challengeParameters": "xwhfatragklv",
+            "prize": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "sides": [
+                "SOUTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "ea69db9a-ad18-4fdb-988e-2f4e158fea96",
+            "challenge": "Decode the following string",
+            "challengeParameters": "..- .--- .-.. -.- .-.. ...- .. ..-. -.-- .- -- ... ..-.",
+            "prize": 0
+        },
+        {
+            "x": 3,
+            "y": 6,
+            "sides": [
+                "NORTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "9b642572-8fc3-4af6-be67-a8ce6c6866dd",
+            "challenge": "Is the following number a Disarium Number? (Use N or Y as answer)",
+            "challengeParameters": "89",
+            "prize": 0
+        },
+        {
+            "x": 3,
+            "y": 7,
+            "sides": [
+                "SOUTH"
+            ],
+            "decisionPoint": true,
+            "challengeId": "e6fbbee9-303d-4de2-9e46-1ec79238a3d4",
+            "challenge": "Is the following number a Disarium Number? (Use N or Y as answer)",
+            "challengeParameters": "135",
+            "prize": 0
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "sides": [
+                "NORTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "f7ec1ba5-7068-4158-b0a0-edb11c1c21e6",
+            "challenge": "Reverse the following String",
+            "challengeParameters": "597qhz7cLhESmgCPzJXJPKIwozmNQ2ZjUy8GTjC2ftfROTXTJkdXZQ1h1IzVuMuxbAn6nCk4OmAsrEEdJDM8kDGzazkQWvFTXgMxgvODqFMphUOrEWhgfi",
+            "prize": 0
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "sides": [
+                "SOUTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "b9fab0f0-e871-4ee5-874d-d3ae35c83041",
+            "challenge": "Brute force the password. It can contain upper/lowercase alphanumeric characters",
+            "challengeParameters": "",
+            "prize": 0
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "sides": [
+                "NORTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "d2ca7316-3d1d-41f7-8dc0-f4d004314917",
+            "challenge": "The following string is encrypted with an ancient algorithm, invented in one of the mightiest empires of all time.Tip: one of the leaders of this empire.",
+            "challengeParameters": "wrgdaagagskwhlr",
+            "prize": 0
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "sides": [
+                "SOUTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "0c219b3a-b9f3-4d4a-b08e-f906bcdf1e79",
+            "challenge": "Decode the following String. It uses a quite common encoding, find out which!",
+            "challengeParameters": "WUp2UUJ4YWZScm5zdkNxRGM0RGNMTndmQjhZM0w=",
+            "prize": 0
+        },
+        {
+            "x": 4,
+            "y": 3,
+            "sides": [
+                "NORTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "61b85fc4-f459-4f33-97f7-08fd72ba2095",
+            "challenge": "Reverse the following String",
+            "challengeParameters": "kbFbwuYlx8XasDEyGAVooFv51VKdxGmxA3aUtJ5EijkvR1EBJBmUErkYJgeVxPJsQOqgwnLsoq78NfqONDwbRKPiDZci9KZ9wZBcDkB05lEH9O7WlU09",
+            "prize": 0
+        },
+        {
+            "x": 4,
+            "y": 4,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "7fb418d0-bb44-4902-bd11-0288a62529c1",
+            "challenge": "Find all the primes between the start and end index (both inclusive)",
+            "challengeParameters": "{\"start\":90052,\"end\":90152}",
+            "prize": 0
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "sides": [
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "efe2b7e5-0d71-4e02-a9fc-2bb265f4ff24",
+            "challenge": "Decode the following String. It uses a quite common encoding, find out which!",
+            "challengeParameters": "YUhKTERrb1JMWkZVcUZKRTYyUmxMZ3cwQ25teE8yRVZH",
+            "prize": 0
+        },
+        {
+            "x": 4,
+            "y": 6,
+            "sides": [
+                "SOUTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "749e2371-6777-4c16-b867-0497cc9bff80",
+            "challenge": "Answer is the first and last day of the month (MONDAY - SUNDAY) eg: MONDAY-FRIDAY",
+            "challengeParameters": "{\"month\":\"8\",\"year\":\"1991\"}",
+            "prize": 0
+        },
+        {
+            "x": 4,
+            "y": 7,
+            "sides": [
+                "NORTH",
+                "SOUTH",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 4,
+            "y": 8,
+            "sides": [
+                "NORTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "c5b5e37e-8607-4830-a048-df58f57e4789",
+            "challenge": "Decode the following string",
+            "challengeParameters": "- --- ..-. -.- --- . -.-- -- .-.. .- .---",
+            "prize": 0
+        },
+        {
+            "x": 4,
+            "y": 9,
+            "sides": [
+                "SOUTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "f0f9d82b-1acf-4e03-81be-8246c7e9e328",
+            "challenge": "The following string is encrypted with an ancient algorithm, invented in one of the mightiest empires of all time.Tip: one of the leaders of this empire.",
+            "challengeParameters": "qezkajbsbir",
+            "prize": 0
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": true,
+            "challengeId": "b366d250-2aca-4cc5-a3b3-d8dae9a02e77",
+            "challenge": "The following string is encrypted with an ancient algorithm, invented in one of the mightiest empires of all time.Tip: one of the leaders of this empire.",
+            "challengeParameters": "xjosmgcbrmd",
+            "prize": 0
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "sides": [
+                "NORTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "016a2fce-5840-4867-b6a4-03b2ce2a8d62",
+            "challenge": "Is the following string in alphabetical order? (Use N or Y as answer)",
+            "challengeParameters": "DGZVIgvJAFaeQdVkg67TOoT00cVGDSQD3Wwits72if6yyeftrni3eywmGfqSyCfTqnaZoWx",
+            "prize": 0
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "4040ea0e-e01b-46e5-9971-81c2c74e94be",
+            "challenge": "Is the following string in alphabetical order? (Use N or Y as answer)",
+            "challengeParameters": "112345556677788889CCDEHJKLMMNNPRTUUVWWXXYYZZbcdeeeefgghiklmmnnnooppppqsssvvvwwxyyyzzz",
+            "prize": 0
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "2862aaa7-e1f0-4893-a76e-06e17f6f3a67",
+            "challenge": "Reverse the following String",
+            "challengeParameters": "8ejpCFv2IRJLeWtOq4ukVotnp406ggnqDr3zCnlop2VmOS30Tfuce9H21S4M6EUTy1qXNnJdvEZGJU6YhAfXWOLgHsTqTBNDd9uLvjpYbHrOX",
+            "prize": 0
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "sides": [
+                "SOUTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "a91baf0b-703f-4e30-b506-64d272a4e7cd",
+            "challenge": "Is the following number a Disarium Number? (Use N or Y as answer)",
+            "challengeParameters": "685",
+            "prize": 0
+        },
+        {
+            "x": 5,
+            "y": 6,
+            "sides": [
+                "NORTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "8a4eecb9-9fa6-4cf6-b433-9beebd041426",
+            "challenge": "Brute force the password. It can contain upper/lowercase alphanumeric characters",
+            "challengeParameters": "",
+            "prize": 0
+        },
+        {
+            "x": 5,
+            "y": 7,
+            "sides": [
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "154a1488-d03f-4977-bd4d-e3898ba8e88f",
+            "challenge": "Brute force the password. It can contain upper/lowercase alphanumeric characters",
+            "challengeParameters": "",
+            "prize": 0
+        },
+        {
+            "x": 5,
+            "y": 8,
+            "sides": [
+                "SOUTH",
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 5,
+            "y": 9,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": true,
+            "challengeId": "90b3051d-5896-4b2f-b396-877761c9b1b8",
+            "challenge": "Reverse the following String",
+            "challengeParameters": "oAfxVHrKNXNeHTf4nkhfvw5Ig28lKjKyTkb8RGzaEwkgtPI1mZhJvkFMphcHbtyb9dTFx1SrJ2awWtuqzCIbLKN9cJfW13ScRIEGkrKvESic",
+            "prize": 0
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": true,
+            "challengeId": "8a6cfe14-bd63-426a-8f2a-6420f7b3e0ce",
+            "challenge": "Find all the primes between the start and end index (both inclusive)",
+            "challengeParameters": "{\"start\":48678,\"end\":48778}",
+            "prize": 0
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "sides": [
+                "NORTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "562a6de7-02b8-4a81-b626-832c8a74990d",
+            "challenge": "Find all the primes between the start and end index (both inclusive)",
+            "challengeParameters": "{\"start\":22575,\"end\":22675}",
+            "prize": 0
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "db707749-d7c7-49b1-8d8b-2e843a433dd6",
+            "challenge": "Replace string at given index in arraylist",
+            "challengeParameters": "{\"index\":\"4\",\"arrayList\":\"[bLfz, IHac, A1vh, WsW, B3y, 8Yk, Z30V, L2YB, d4sh, PI5S]\",\"replacement\":\"IqtB\"}",
+            "prize": 0
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "ef707099-24e2-4d98-8b63-8b3dcd03b9b1",
+            "challenge": "Convert the following String to hexadecimal value (Use a space delimiter between values)",
+            "challengeParameters": "cdh3pjOmuNSKQ5ACm",
+            "prize": 0
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "dcd3bdfb-d31b-4866-b841-6293dcbf553c",
+            "challenge": "Find the missing numbers in the sequence. Return them as a comma-separated string",
+            "challengeParameters": "[0,1,1,5,8,13,21,34,55,89,144,377,610,1597,2584,4181,0,1,2,5,8,13,21,34,55,89,144,233,377,610,987,2584,4181,0,2,5,8,13,21,34,55,89,144,233,377,610,987,1597,4181,1,1,2,3,5,8,13,21,34,55,89,377,610,1597,2584,4181,0,1,1,3,5,8,13,21,55,89,144,233,377,610,987,4181,0,1,1,2,8,13,34,55,89,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,144,233,377,610,2584,4181,0,2,3,5,13,21,34,55,89,144,233,377,610,987,1597,4181,0,1,3,5,8,21,34,89,144,233,377,610,987,1597,2584,4181,0,2,3,8,13,21,34,55,89,144,377,610,987,1597,2584,4181,1,1,2,5,13,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,3,5,8,13,34,55,233,610,987,1597,2584,4181,0,1,2,3,13,21,34,55,89,233,377,610,987,2584,4181,0,1,1,3,5,8,13,34,55,89,144,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,21,34,55,89,233,377,987,4181,1,1,2,3,5,8,13,21,34,55,89,144,233,610,987,4181,0,1,2,3,5,8,21,34,89,144,233,610,987,1597,2584,4181,0,1,1,3,5,13,21,34,89,144,233,377,610,1597,2584,4181,0,1,1,3,5,8,21,34,55,144,377,610,987,1597,2584,4181,1,2,3,5,13,21,34,55,89,144,233,610,1597,2584,4181,0,1,3,5,8,13,34,55,89,233,377,610,987,2584,4181,0,1,1,3,8,13,21,34,89,233,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,89,144,377,1597,2584,4181,0,1,1,3,5,21,34,55,89,144,377,610,987,1597,2584,4181,0,1,1,3,13,34,55,89,144,233,377,610,987,2584,4181,0,1,1,2,3,5,8,13,34,55,144,233,987,1597,2584,4181,1,2,3,8,13,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,34,55,89,144,233,610,987,4181,1,1,3,5,8,13,34,55,89,144,233,377,610,987,4181,0,1,1,2,3,5,8,13,21,34,55,144,233,377,987,4181,0,1,3,5,8,21,34,55,89,144,233,377,610,987,2584,4181,1,2,3,5,8,21,34,55,89,233,377,610,987,1597,4181,0,1,2,3,5,8,21,89,144,233,610,987,1597,2584,4181,0,1,1,3,5,8,13,21,34,55,89,144,233,987,2584,4181,0,1,1,2,3,5,21,34,55,89,144,377,610,1597,2584,4181,0,1,1,2,5,8,13,21,55,89,233,377,987,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,233,377,1597,2584,4181,0,1,1,2,5,8,13,34,55,89,144,233,377,610,1597,2584,4181,0,1,1,2,3,5,21,34,55,89,144,377,610,987,1597,2584,4181,1,1,3,5,8,13,34,55,89,233,377,610,1597,2584,4181,1,1,2,3,8,13,21,34,55,89,233,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,233,377,1597,2584,4181,0,1,1,2,3,21,34,55,89,144,233,610,987,1597,2584,4181,0,1,1,3,5,8,13,21,34,55,233,377,610,987,2584,4181,0,1,2,3,8,13,21,34,55,89,144,233,610,987,2584,4181,0,1,2,5,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,55,89,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,34,55,144,233,377,610,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,233,377,1597,2584,4181,1,2,3,8,13,21,55,144,233,377,610,987,1597,2584,4181,0,1,1,3,5,8,13,21,34,55,89,144,610,1597,4181,0,1,1,2,5,8,13,21,55,144,233,377,987,2584,4181,0,1,2,5,8,13,21,55,89,144,233,377,610,1597,4181,0,1,1,2,3,5,13,21,55,144,233,377,610,987,2584,4181,0,1,1,2,3,5,13,21,34,55,89,144,377,610,987,2584,4181,0,1,1,3,5,8,13,21,34,89,144,233,377,610,987,4181,1,2,3,5,13,21,34,55,144,233,377,610,987,2584,4181,1,2,3,5,8,13,21,34,55,144,377,610,987,1597,2584,4181,1,2,3,5,13,21,34,55,89,144,233,610,987,1597,2584,4181,0,1,1,2,5,13,34,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,34,55,89,233,610,1597,4181,0,2,3,5,8,21,34,55,89,144,233,610,987,1597,2584,4181,0,1,1,3,13,21,34,55,89,144,610,987,1597,2584,4181,0,1,1,3,5,8,21,34,55,89,233,377,987,2584,4181,0,1,1,2,5,8,13,21,34,55,89,144,377,610,987,4181,0,1,1,2,3,5,8,21,89,233,377,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,34,89,144,233,610,987,2584,4181,0,1,1,2,3,8,13,21,34,55,89,233,377,987,2584,4181,0,1,1,3,5,21,34,89,144,233,377,610,987,2584,4181,0,1,1,2,3,5,8,13,34,89,144,233,377,610,987,1597,4181,0,1,1,3,5,8,13,21,34,89,144,377,987,2584,4181,0,1,2,3,5,13,21,34,55,89,233,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,55,144,233,377,610,987,1597,2584,4181,0,1,1,3,8,13,21,34,55,89,144,233,610,1597,2584,4181,0,1,2,3,5,8,21,34,55,144,233,377,610,987,2584,4181,0,1,1,2,3,8,13,21,55,89,233,377,1597,2584,4181,0,1,3,5,13,21,34,55,89,233,377,610,987,1597,2584,4181,1,2,3,8,13,21,34,55,144,233,377,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,34,55,144,233,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,377,987,1597,2584,4181,0,1,2,3,5,8,13,21,89,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,144,233,377,987,1597,2584,4181,0,1,1,2,3,8,13,21,34,55,89,144,233,377,1597,4181,0,1,1,2,3,5,8,13,21,55,89,144,233,377,987,1597,4181,0,1,1,2,3,5,8,13,21,89,144,233,377,987,2584,4181,1,1,2,3,5,8,13,21,34,55,144,233,610,987,1597,2584,4181,0,1,2,5,13,21,55,89,144,233,377,610,987,2584,4181,0,1,1,2,3,5,8,21,34,233,377,610,987,1597,2584,4181,0,1,1,5,8,13,21,34,55,89,144,233,377,987,2584,4181,0,1,2,5,13,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,2,3,8,34,89,144,233,377,610,1597,2584,4181,1,1,2,3,5,8,13,21,34,55,89,144,377,610,987,1597,4181,0,1,1,2,3,5,8,13,21,34,55,233,987,1597,2584,4181,0,1,2,5,8,13,21,34,89,144,233,377,610,987,1597,2584,4181,1,1,2,3,5,21,34,89,144,233,377,610,987,1597,2584,4181,1,3,5,8,21,34,55,144,233,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,21,34,55,89,144,233,377,987,2584,4181,0,1,1,2,5,8,13,21,34,89,233,610,987,1597,2584,4181,0,1,3,5,8,13,21,34,55,144,233,377,610,1597,2584,4181,0,1,1,3,8,13,21,34,89,144,233,377,610,987,1597,4181,0,1,2,3,5,8,13,21,55,89,233,377,610,987,1597,2584,4181,0,1,3,5,8,13,21,34,55,89,144,233,377,610,987,2584,4181,0,1,1,3,5,8,13,21,34,55,144,233,987,1597,4181,0,1,2,8,13,21,34,55,89,144,233,377,610,987,1597,4181,1,1,2,3,5,8,13,21,34,55,89,233,377,610,987,1597,2584,4181,1,2,3,5,8,13,34,89,144,233,610,987,1597,2584,4181,0,1,1,3,8,13,21,34,55,144,233,377,610,1597,2584,4181,0,1,1,2,5,8,13,21,55,89,144,233,377,610,2584,4181,0,1,1,2,3,5,13,34,55,89,144,377,610,987,2584,4181,0,1,1,2,3,8,13,21,55,89,377,610,987,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,233,610,987,1597,4181,1,1,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,3,5,8,21,34,55,89,144,377,610,1597,2584,4181,0,1,1,3,5,13,21,34,55,89,144,233,610,1597,2584,4181,0,1,1,2,3,5,8,21,34,55,89,144,377,987,2584,4181,0,1,1,2,3,5,13,21,89,144,233,377,610,1597,2584,4181,1,1,2,3,8,13,21,55,89,233,610,987,1597,2584,4181,1,1,2,3,5,8,13,21,34,55,89,144,233,377,1597,4181,0,1,3,5,8,13,21,55,144,233,377,610,1597,2584,4181,0,1,1,2,3,8,13,55,89,144,233,610,1597,2584,4181,0,1,1,2,3,5,13,21,34,89,377,610,987,1597,2584,4181,1,1,2,3,5,8,13,34,55,144,233,377,610,987,1597,4181,0,1,1,2,5,13,21,55,89,144,233,377,987,1597,2584,4181,0,1,1,2,13,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,5,8,13,34,55,89,144,233,377,610,987,1597,2584,4181,1,1,3,5,8,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,3,8,13,21,34,55,89,144,377,610,987,1597,4181,0,1,1,3,5,13,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,34,144,233,377,610,2584,4181,0,1,2,3,8,21,34,55,89,144,233,377,610,1597,2584,4181,0,1,1,2,3,8,13,34,55,89,144,233,610,987,1597,4181,0,2,3,5,8,13,21,34,55,144,610,987,1597,2584,4181,0,1,1,2,5,8,13,34,55,89,144,377,610,987,1597,4181,0,1,2,3,8,13,34,55,89,144,233,987,1597,2584,4181,0,1,3,5,8,13,21,55,233,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,89,144,987,1597,4181,0,1,2,3,5,8,13,21,55,89,144,233,377,610,1597,2584,4181,0,1,2,3,5,8,13,34,55,89,144,233,610,1597,2584,4181,1,1,2,3,5,8,21,34,55,89,144,610,987,1597,2584,4181]",
+            "prize": 0
+        },
+        {
+            "x": 6,
+            "y": 6,
+            "sides": [
+                "SOUTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "bdd041d9-71bd-4e62-9199-cee3278dc694",
+            "challenge": "The following string is encrypted with an ancient algorithm, invented in one of the mightiest empires of all time.Tip: one of the leaders of this empire.",
+            "challengeParameters": "czjktozogw",
+            "prize": 0
+        },
+        {
+            "x": 6,
+            "y": 7,
+            "sides": [
+                "NORTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "b839ed2a-a43d-4571-a498-50eb4c594482",
+            "challenge": "Find the missing numbers in the sequence. Return them as a comma-separated string",
+            "challengeParameters": "[0,1,1,5,8,13,21,34,55,89,144,377,610,1597,2584,4181,0,1,2,5,8,13,21,34,55,89,144,233,377,610,987,2584,4181,0,2,5,8,13,21,34,55,89,144,233,377,610,987,1597,4181,1,1,2,3,5,8,13,21,34,55,89,377,610,1597,2584,4181,0,1,1,3,5,8,13,21,55,89,144,233,377,610,987,4181,0,1,1,2,8,13,34,55,89,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,144,233,377,610,2584,4181,0,2,3,5,13,21,34,55,89,144,233,377,610,987,1597,4181,0,1,3,5,8,21,34,89,144,233,377,610,987,1597,2584,4181,0,2,3,8,13,21,34,55,89,144,377,610,987,1597,2584,4181,1,1,2,5,13,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,3,5,8,13,34,55,233,610,987,1597,2584,4181,0,1,2,3,13,21,34,55,89,233,377,610,987,2584,4181,0,1,1,3,5,8,13,34,55,89,144,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,21,34,55,89,233,377,987,4181,1,1,2,3,5,8,13,21,34,55,89,144,233,610,987,4181,0,1,2,3,5,8,21,34,89,144,233,610,987,1597,2584,4181,0,1,1,3,5,13,21,34,89,144,233,377,610,1597,2584,4181,0,1,1,3,5,8,21,34,55,144,377,610,987,1597,2584,4181,1,2,3,5,13,21,34,55,89,144,233,610,1597,2584,4181,0,1,3,5,8,13,34,55,89,233,377,610,987,2584,4181,0,1,1,3,8,13,21,34,89,233,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,89,144,377,1597,2584,4181,0,1,1,3,5,21,34,55,89,144,377,610,987,1597,2584,4181,0,1,1,3,13,34,55,89,144,233,377,610,987,2584,4181,0,1,1,2,3,5,8,13,34,55,144,233,987,1597,2584,4181,1,2,3,8,13,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,34,55,89,144,233,610,987,4181,1,1,3,5,8,13,34,55,89,144,233,377,610,987,4181,0,1,1,2,3,5,8,13,21,34,55,144,233,377,987,4181,0,1,3,5,8,21,34,55,89,144,233,377,610,987,2584,4181,1,2,3,5,8,21,34,55,89,233,377,610,987,1597,4181,0,1,2,3,5,8,21,89,144,233,610,987,1597,2584,4181,0,1,1,3,5,8,13,21,34,55,89,144,233,987,2584,4181,0,1,1,2,3,5,21,34,55,89,144,377,610,1597,2584,4181,0,1,1,2,5,8,13,21,55,89,233,377,987,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,233,377,1597,2584,4181,0,1,1,2,5,8,13,34,55,89,144,233,377,610,1597,2584,4181,0,1,1,2,3,5,21,34,55,89,144,377,610,987,1597,2584,4181,1,1,3,5,8,13,34,55,89,233,377,610,1597,2584,4181,1,1,2,3,8,13,21,34,55,89,233,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,233,377,1597,2584,4181,0,1,1,2,3,21,34,55,89,144,233,610,987,1597,2584,4181,0,1,1,3,5,8,13,21,34,55,233,377,610,987,2584,4181,0,1,2,3,8,13,21,34,55,89,144,233,610,987,2584,4181,0,1,2,5,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,55,89,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,34,55,144,233,377,610,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,233,377,1597,2584,4181,1,2,3,8,13,21,55,144,233,377,610,987,1597,2584,4181,0,1,1,3,5,8,13,21,34,55,89,144,610,1597,4181,0,1,1,2,5,8,13,21,55,144,233,377,987,2584,4181,0,1,2,5,8,13,21,55,89,144,233,377,610,1597,4181,0,1,1,2,3,5,13,21,55,144,233,377,610,987,2584,4181,0,1,1,2,3,5,13,21,34,55,89,144,377,610,987,2584,4181,0,1,1,3,5,8,13,21,34,89,144,233,377,610,987,4181,1,2,3,5,13,21,34,55,144,233,377,610,987,2584,4181,1,2,3,5,8,13,21,34,55,144,377,610,987,1597,2584,4181,1,2,3,5,13,21,34,55,89,144,233,610,987,1597,2584,4181,0,1,1,2,5,13,34,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,34,55,89,233,610,1597,4181,0,2,3,5,8,21,34,55,89,144,233,610,987,1597,2584,4181,0,1,1,3,13,21,34,55,89,144,610,987,1597,2584,4181,0,1,1,3,5,8,21,34,55,89,233,377,987,2584,4181,0,1,1,2,5,8,13,21,34,55,89,144,377,610,987,4181,0,1,1,2,3,5,8,21,89,233,377,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,34,89,144,233,610,987,2584,4181,0,1,1,2,3,8,13,21,34,55,89,233,377,987,2584,4181,0,1,1,3,5,21,34,89,144,233,377,610,987,2584,4181,0,1,1,2,3,5,8,13,34,89,144,233,377,610,987,1597,4181,0,1,1,3,5,8,13,21,34,89,144,377,987,2584,4181,0,1,2,3,5,13,21,34,55,89,233,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,55,144,233,377,610,987,1597,2584,4181,0,1,1,3,8,13,21,34,55,89,144,233,610,1597,2584,4181,0,1,2,3,5,8,21,34,55,144,233,377,610,987,2584,4181,0,1,1,2,3,8,13,21,55,89,233,377,1597,2584,4181,0,1,3,5,13,21,34,55,89,233,377,610,987,1597,2584,4181,1,2,3,8,13,21,34,55,144,233,377,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,34,55,144,233,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,377,987,1597,2584,4181,0,1,2,3,5,8,13,21,89,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,144,233,377,987,1597,2584,4181,0,1,1,2,3,8,13,21,34,55,89,144,233,377,1597,4181,0,1,1,2,3,5,8,13,21,55,89,144,233,377,987,1597,4181,0,1,1,2,3,5,8,13,21,89,144,233,377,987,2584,4181,1,1,2,3,5,8,13,21,34,55,144,233,610,987,1597,2584,4181,0,1,2,5,13,21,55,89,144,233,377,610,987,2584,4181,0,1,1,2,3,5,8,21,34,233,377,610,987,1597,2584,4181,0,1,1,5,8,13,21,34,55,89,144,233,377,987,2584,4181,0,1,2,5,13,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,2,3,8,34,89,144,233,377,610,1597,2584,4181,1,1,2,3,5,8,13,21,34,55,89,144,377,610,987,1597,4181,0,1,1,2,3,5,8,13,21,34,55,233,987,1597,2584,4181,0,1,2,5,8,13,21,34,89,144,233,377,610,987,1597,2584,4181,1,1,2,3,5,21,34,89,144,233,377,610,987,1597,2584,4181,1,3,5,8,21,34,55,144,233,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,21,34,55,89,144,233,377,987,2584,4181,0,1,1,2,5,8,13,21,34,89,233,610,987,1597,2584,4181,0,1,3,5,8,13,21,34,55,144,233,377,610,1597,2584,4181,0,1,1,3,8,13,21,34,89,144,233,377,610,987,1597,4181,0,1,2,3,5,8,13,21,55,89,233,377,610,987,1597,2584,4181,0,1,3,5,8,13,21,34,55,89,144,233,377,610,987,2584,4181,0,1,1,3,5,8,13,21,34,55,144,233,987,1597,4181,0,1,2,8,13,21,34,55,89,144,233,377,610,987,1597,4181,1,1,2,3,5,8,13,21,34,55,89,233,377,610,987,1597,2584,4181,1,2,3,5,8,13,34,89,144,233,610,987,1597,2584,4181,0,1,1,3,8,13,21,34,55,144,233,377,610,1597,2584,4181,0,1,1,2,5,8,13,21,55,89,144,233,377,610,2584,4181,0,1,1,2,3,5,13,34,55,89,144,377,610,987,2584,4181,0,1,1,2,3,8,13,21,55,89,377,610,987,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,233,610,987,1597,4181,1,1,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,3,5,8,21,34,55,89,144,377,610,1597,2584,4181,0,1,1,3,5,13,21,34,55,89,144,233,610,1597,2584,4181,0,1,1,2,3,5,8,21,34,55,89,144,377,987,2584,4181,0,1,1,2,3,5,13,21,89,144,233,377,610,1597,2584,4181,1,1,2,3,8,13,21,55,89,233,610,987,1597,2584,4181,1,1,2,3,5,8,13,21,34,55,89,144,233,377,1597,4181,0,1,3,5,8,13,21,55,144,233,377,610,1597,2584,4181,0,1,1,2,3,8,13,55,89,144,233,610,1597,2584,4181,0,1,1,2,3,5,13,21,34,89,377,610,987,1597,2584,4181,1,1,2,3,5,8,13,34,55,144,233,377,610,987,1597,4181,0,1,1,2,5,13,21,55,89,144,233,377,987,1597,2584,4181,0,1,1,2,13,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,5,8,13,34,55,89,144,233,377,610,987,1597,2584,4181,1,1,3,5,8,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,3,8,13,21,34,55,89,144,377,610,987,1597,4181,0,1,1,3,5,13,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,34,144,233,377,610,2584,4181,0,1,2,3,8,21,34,55,89,144,233,377,610,1597,2584,4181,0,1,1,2,3,8,13,34,55,89,144,233,610,987,1597,4181,0,2,3,5,8,13,21,34,55,144,610,987,1597,2584,4181,0,1,1,2,5,8,13,34,55,89,144,377,610,987,1597,4181,0,1,2,3,8,13,34,55,89,144,233,987,1597,2584,4181,0,1,3,5,8,13,21,55,233,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,89,144,987,1597,4181,0,1,2,3,5,8,13,21,55,89,144,233,377,610,1597,2584,4181,0,1,2,3,5,8,13,34,55,89,144,233,610,1597,2584,4181,1,1,2,3,5,8,21,34,55,89,144,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,34,89,233,377,987,1597,2584,4181]",
+            "prize": 0
+        },
+        {
+            "x": 6,
+            "y": 8,
+            "sides": [
+                "SOUTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "74afbfc2-20de-46d7-8cfb-d6ea6fe066e0",
+            "challenge": "Is the following number a Disarium Number? (Use N or Y as answer)",
+            "challengeParameters": "8",
+            "prize": 0
+        },
+        {
+            "x": 6,
+            "y": 9,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": true,
+            "challengeId": "39f09424-2bce-44e9-bc57-785f9a5ec8c7",
+            "challenge": "Convert the following String to hexadecimal value (Use a space delimiter between values)",
+            "challengeParameters": "mxIaSomxiOU5ZGx2c",
+            "prize": 0
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "sides": [
+                "NORTH",
+                "SOUTH"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "sides": [
+                "NORTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "bf1cd3d6-69ea-4808-8451-ccba19ca801d",
+            "challenge": "Decode the following string",
+            "challengeParameters": ".--. .-.. ...- .- -..- -..- .. .-. .- -- .... .- -- .--. ....",
+            "prize": 0
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "7a4ed2d7-f46b-4aec-86ce-3ad88712c877",
+            "challenge": "Return element at index of the given hashmap",
+            "challengeParameters": "{\"index\":\"2\",\"hashmap\":\"{1=kZ9b, 2=DOcp, 3=WJE8, 4=xbB, 5=Mze}\"}",
+            "prize": 0
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "sides": [
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "2773b7e2-72d8-4053-8ad4-e805e5cc13ec",
+            "challenge": "Find all the primes between the start and end index (both inclusive)",
+            "challengeParameters": "{\"start\":10349,\"end\":10449}",
+            "prize": 0
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "b2f2b633-b143-4942-884c-5a3f6e981549",
+            "challenge": "Is the following string in alphabetical order? (Use N or Y as answer)",
+            "challengeParameters": "00234456678ABBBBCDDEFFGGHJLNOPPQQQRSSTTVVVZZaabbceeffhijkkllmnprrrssuuuvwxxxyzzz",
+            "prize": 0
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "sides": [
+                "SOUTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "56e74158-aa44-4b83-942a-01af02eaeaec",
+            "challenge": "Replace string at given index in arraylist",
+            "challengeParameters": "{\"index\":\"7\",\"arrayList\":\"[SwrO, mpaU, oqR, lFq, 5DE, qN5, I34z, yf2, G6RB, Wvs7]\",\"replacement\":\"8fbd\"}",
+            "prize": 0
+        },
+        {
+            "x": 7,
+            "y": 6,
+            "sides": [
+                "NORTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "f64227b4-8a76-470a-9da6-fc9057dd8ac9",
+            "challenge": "What is the Perfect Number in the nth position (1-based)?",
+            "challengeParameters": "{\"nth element\":\"4\"}",
+            "prize": 0
+        },
+        {
+            "x": 7,
+            "y": 7,
+            "sides": [
+                "SOUTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "b4253f64-21a8-4671-83fe-db55c7dafd97",
+            "challenge": "Decode the following String. It uses a quite common encoding, find out which!",
+            "challengeParameters": "cXcya0pDUGdDNHh4dTZzWWRIblYwRlFpVmV2",
+            "prize": 0
+        },
+        {
+            "x": 7,
+            "y": 8,
+            "sides": [
+                "NORTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "fd42e4ff-b55b-4852-9ed8-1f74c9be752c",
+            "challenge": "Find the missing numbers in the sequence. Return them as a comma-separated string",
+            "challengeParameters": "[0,1,1,5,8,13,21,34,55,89,144,377,610,1597,2584,4181,0,1,2,5,8,13,21,34,55,89,144,233,377,610,987,2584,4181,0,2,5,8,13,21,34,55,89,144,233,377,610,987,1597,4181,1,1,2,3,5,8,13,21,34,55,89,377,610,1597,2584,4181,0,1,1,3,5,8,13,21,55,89,144,233,377,610,987,4181,0,1,1,2,8,13,34,55,89,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,144,233,377,610,2584,4181,0,2,3,5,13,21,34,55,89,144,233,377,610,987,1597,4181,0,1,3,5,8,21,34,89,144,233,377,610,987,1597,2584,4181,0,2,3,8,13,21,34,55,89,144,377,610,987,1597,2584,4181,1,1,2,5,13,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,3,5,8,13,34,55,233,610,987,1597,2584,4181,0,1,2,3,13,21,34,55,89,233,377,610,987,2584,4181,0,1,1,3,5,8,13,34,55,89,144,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,21,34,55,89,233,377,987,4181,1,1,2,3,5,8,13,21,34,55,89,144,233,610,987,4181,0,1,2,3,5,8,21,34,89,144,233,610,987,1597,2584,4181,0,1,1,3,5,13,21,34,89,144,233,377,610,1597,2584,4181,0,1,1,3,5,8,21,34,55,144,377,610,987,1597,2584,4181,1,2,3,5,13,21,34,55,89,144,233,610,1597,2584,4181,0,1,3,5,8,13,34,55,89,233,377,610,987,2584,4181,0,1,1,3,8,13,21,34,89,233,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,89,144,377,1597,2584,4181,0,1,1,3,5,21,34,55,89,144,377,610,987,1597,2584,4181,0,1,1,3,13,34,55,89,144,233,377,610,987,2584,4181,0,1,1,2,3,5,8,13,34,55,144,233,987,1597,2584,4181,1,2,3,8,13,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,34,55,89,144,233,610,987,4181,1,1,3,5,8,13,34,55,89,144,233,377,610,987,4181,0,1,1,2,3,5,8,13,21,34,55,144,233,377,987,4181,0,1,3,5,8,21,34,55,89,144,233,377,610,987,2584,4181,1,2,3,5,8,21,34,55,89,233,377,610,987,1597,4181,0,1,2,3,5,8,21,89,144,233,610,987,1597,2584,4181,0,1,1,3,5,8,13,21,34,55,89,144,233,987,2584,4181,0,1,1,2,3,5,21,34,55,89,144,377,610,1597,2584,4181,0,1,1,2,5,8,13,21,55,89,233,377,987,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,233,377,1597,2584,4181,0,1,1,2,5,8,13,34,55,89,144,233,377,610,1597,2584,4181,0,1,1,2,3,5,21,34,55,89,144,377,610,987,1597,2584,4181,1,1,3,5,8,13,34,55,89,233,377,610,1597,2584,4181,1,1,2,3,8,13,21,34,55,89,233,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,233,377,1597,2584,4181,0,1,1,2,3,21,34,55,89,144,233,610,987,1597,2584,4181,0,1,1,3,5,8,13,21,34,55,233,377,610,987,2584,4181,0,1,2,3,8,13,21,34,55,89,144,233,610,987,2584,4181,0,1,2,5,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,55,89,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,34,55,144,233,377,610,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,233,377,1597,2584,4181,1,2,3,8,13,21,55,144,233,377,610,987,1597,2584,4181,0,1,1,3,5,8,13,21,34,55,89,144,610,1597,4181,0,1,1,2,5,8,13,21,55,144,233,377,987,2584,4181,0,1,2,5,8,13,21,55,89,144,233,377,610,1597,4181,0,1,1,2,3,5,13,21,55,144,233,377,610,987,2584,4181,0,1,1,2,3,5,13,21,34,55,89,144,377,610,987,2584,4181,0,1,1,3,5,8,13,21,34,89,144,233,377,610,987,4181,1,2,3,5,13,21,34,55,144,233,377,610,987,2584,4181,1,2,3,5,8,13,21,34,55,144,377,610,987,1597,2584,4181,1,2,3,5,13,21,34,55,89,144,233,610,987,1597,2584,4181,0,1,1,2,5,13,34,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,34,55,89,233,610,1597,4181,0,2,3,5,8,21,34,55,89,144,233,610,987,1597,2584,4181,0,1,1,3,13,21,34,55,89,144,610,987,1597,2584,4181,0,1,1,3,5,8,21,34,55,89,233,377,987,2584,4181,0,1,1,2,5,8,13,21,34,55,89,144,377,610,987,4181,0,1,1,2,3,5,8,21,89,233,377,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,34,89,144,233,610,987,2584,4181,0,1,1,2,3,8,13,21,34,55,89,233,377,987,2584,4181,0,1,1,3,5,21,34,89,144,233,377,610,987,2584,4181,0,1,1,2,3,5,8,13,34,89,144,233,377,610,987,1597,4181,0,1,1,3,5,8,13,21,34,89,144,377,987,2584,4181,0,1,2,3,5,13,21,34,55,89,233,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,55,144,233,377,610,987,1597,2584,4181,0,1,1,3,8,13,21,34,55,89,144,233,610,1597,2584,4181,0,1,2,3,5,8,21,34,55,144,233,377,610,987,2584,4181,0,1,1,2,3,8,13,21,55,89,233,377,1597,2584,4181,0,1,3,5,13,21,34,55,89,233,377,610,987,1597,2584,4181,1,2,3,8,13,21,34,55,144,233,377,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,34,55,144,233,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,377,987,1597,2584,4181,0,1,2,3,5,8,13,21,89,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,144,233,377,987,1597,2584,4181,0,1,1,2,3,8,13,21,34,55,89,144,233,377,1597,4181,0,1,1,2,3,5,8,13,21,55,89,144,233,377,987,1597,4181,0,1,1,2,3,5,8,13,21,89,144,233,377,987,2584,4181,1,1,2,3,5,8,13,21,34,55,144,233,610,987,1597,2584,4181,0,1,2,5,13,21,55,89,144,233,377,610,987,2584,4181,0,1,1,2,3,5,8,21,34,233,377,610,987,1597,2584,4181,0,1,1,5,8,13,21,34,55,89,144,233,377,987,2584,4181,0,1,2,5,13,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,2,3,8,34,89,144,233,377,610,1597,2584,4181,1,1,2,3,5,8,13,21,34,55,89,144,377,610,987,1597,4181,0,1,1,2,3,5,8,13,21,34,55,233,987,1597,2584,4181,0,1,2,5,8,13,21,34,89,144,233,377,610,987,1597,2584,4181,1,1,2,3,5,21,34,89,144,233,377,610,987,1597,2584,4181,1,3,5,8,21,34,55,144,233,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,21,34,55,89,144,233,377,987,2584,4181,0,1,1,2,5,8,13,21,34,89,233,610,987,1597,2584,4181,0,1,3,5,8,13,21,34,55,144,233,377,610,1597,2584,4181,0,1,1,3,8,13,21,34,89,144,233,377,610,987,1597,4181,0,1,2,3,5,8,13,21,55,89,233,377,610,987,1597,2584,4181,0,1,3,5,8,13,21,34,55,89,144,233,377,610,987,2584,4181,0,1,1,3,5,8,13,21,34,55,144,233,987,1597,4181,0,1,2,8,13,21,34,55,89,144,233,377,610,987,1597,4181,1,1,2,3,5,8,13,21,34,55,89,233,377,610,987,1597,2584,4181,1,2,3,5,8,13,34,89,144,233,610,987,1597,2584,4181,0,1,1,3,8,13,21,34,55,144,233,377,610,1597,2584,4181,0,1,1,2,5,8,13,21,55,89,144,233,377,610,2584,4181,0,1,1,2,3,5,13,34,55,89,144,377,610,987,2584,4181,0,1,1,2,3,8,13,21,55,89,377,610,987,1597,2584,4181,1,2,3,5,8,13,21,34,55,89,144,233,610,987,1597,4181,1,1,5,8,13,21,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,3,5,8,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,3,5,8,21,34,55,89,144,377,610,1597,2584,4181,0,1,1,3,5,13,21,34,55,89,144,233,610,1597,2584,4181,0,1,1,2,3,5,8,21,34,55,89,144,377,987,2584,4181,0,1,1,2,3,5,13,21,89,144,233,377,610,1597,2584,4181,1,1,2,3,8,13,21,55,89,233,610,987,1597,2584,4181,1,1,2,3,5,8,13,21,34,55,89,144,233,377,1597,4181,0,1,3,5,8,13,21,55,144,233,377,610,1597,2584,4181,0,1,1,2,3,8,13,55,89,144,233,610,1597,2584,4181,0,1,1,2,3,5,13,21,34,89,377,610,987,1597,2584,4181,1,1,2,3,5,8,13,34,55,144,233,377,610,987,1597,4181,0,1,1,2,5,13,21,55,89,144,233,377,987,1597,2584,4181,0,1,1,2,13,34,55,89,144,233,377,610,987,1597,2584,4181,0,1,2,5,8,13,34,55,89,144,233,377,610,987,1597,2584,4181,1,1,3,5,8,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,3,8,13,21,34,55,89,144,377,610,987,1597,4181,0,1,1,3,5,13,21,55,89,144,233,377,610,987,1597,2584,4181,0,1,1,2,5,8,13,21,34,144,233,377,610,2584,4181,0,1,2,3,8,21,34,55,89,144,233,377,610,1597,2584,4181,0,1,1,2,3,8,13,34,55,89,144,233,610,987,1597,4181,0,2,3,5,8,13,21,34,55,144,610,987,1597,2584,4181,0,1,1,2,5,8,13,34,55,89,144,377,610,987,1597,4181,0,1,2,3,8,13,34,55,89,144,233,987,1597,2584,4181,0,1,3,5,8,13,21,55,233,377,610,987,1597,2584,4181,0,1,1,2,3,5,8,13,21,34,55,89,144,987,1597,4181,0,1,2,3,5,8,13,21,55,89,144,233,377,610,1597,2584,4181,0,1,2,3,5,8,13,34,55,89,144,233,610,1597,2584,4181,1,1,2,3,5,8,21,34,55,89,144,610,987,1597,2584,4181,0,1,2,3,5,8,13,21,34,89,233,377,987,1597,2584,4181,0,1,1,5,8,13,21,34,55,89,144,987,1597,2584,4181]",
+            "prize": 0
+        },
+        {
+            "x": 7,
+            "y": 9,
+            "sides": [
+                "SOUTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "b39fb826-2bb8-4b08-b6a1-21a78340b5dc",
+            "challenge": "Answer is the first and last day of the month (MONDAY - SUNDAY) eg: MONDAY-FRIDAY",
+            "challengeParameters": "{\"month\":\"7\",\"year\":\"1973\"}",
+            "prize": 0
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "sides": [
+                "NORTH",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "sides": [
+                "SOUTH",
+                "WEST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 8,
+            "y": 3,
+            "sides": [
+                "NORTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "ee6206cf-d77c-4058-9909-ca012d5ac274",
+            "challenge": "Answer is the first and last day of the month (MONDAY - SUNDAY) eg: MONDAY-FRIDAY",
+            "challengeParameters": "{\"month\":\"4\",\"year\":\"2007\"}",
+            "prize": 0
+        },
+        {
+            "x": 8,
+            "y": 4,
+            "sides": [
+                "SOUTH",
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 8,
+            "y": 5,
+            "sides": [
+                "NORTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "15cd098b-7694-4795-a46a-69a5d9a97579",
+            "challenge": "Brute force the password. It can contain upper/lowercase alphanumeric characters",
+            "challengeParameters": "",
+            "prize": 0
+        },
+        {
+            "x": 8,
+            "y": 6,
+            "sides": [
+                "SOUTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "597331fc-4b45-42db-b871-cc5ef46e6c52",
+            "challenge": "Answer is the first and last day of the month (MONDAY - SUNDAY) eg: MONDAY-FRIDAY",
+            "challengeParameters": "{\"month\":\"6\",\"year\":\"1973\"}",
+            "prize": 0
+        },
+        {
+            "x": 8,
+            "y": 7,
+            "sides": [
+                "NORTH",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "f991d4cd-855e-4734-bb3a-35cae0d22590",
+            "challenge": "Reverse the following String",
+            "challengeParameters": "nsxA8tLZSx8jrSSyXN21PrSHEuKzSCDkesgikFtRKpGcrCv6bY9DnRakCbs4J1OJb634DgwNDNe79gSrH0x3zf6izE1FaSQX7oWde6IitS4jtX3tC4mF3X03dEi4Yc1uSYj6Hv3dytyyxAVl",
+            "prize": 0
+        },
+        {
+            "x": 8,
+            "y": 8,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "ddd3cdb4-4da2-4532-85dd-fa57fe172136",
+            "challenge": "Return element at index of the given hashmap",
+            "challengeParameters": "{\"index\":\"1\",\"hashmap\":\"{1=EkSd, 2=k8P, 3=t7F9, 4=VTSX, 5=xYR3}\"}",
+            "prize": 0
+        },
+        {
+            "x": 8,
+            "y": 9,
+            "sides": [
+                "SOUTH",
+                "WEST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "57a50618-85f1-4c11-bfb8-be8fa2ca3507",
+            "challenge": "Return element at index of the given hashmap",
+            "challengeParameters": "{\"index\":\"2\",\"hashmap\":\"{1=XsSE, 2=j79R, 3=lug, 4=CVeH, 5=j0PL}\"}",
+            "prize": 0
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "sides": [
+                "NORTH",
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "2cf0ba02-910a-4586-8b64-accea80c2cde",
+            "challenge": "Convert the following String to hexadecimal value (Use a space delimiter between values)",
+            "challengeParameters": "NkXZDvlxsUS",
+            "prize": 0
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "sides": [
+                "EAST"
+            ],
+            "decisionPoint": true,
+            "challengeId": "9eaaaedb-e950-456a-aeb2-de450fff5c34",
+            "challenge": "Replace string at given index in arraylist",
+            "challengeParameters": "{\"index\":\"7\",\"arrayList\":\"[fp46, x3s, 88ie, AX8, 7Bn, Q4D, P75k, Pd3, 2NX, 5rD]\",\"replacement\":\"Uvqc\"}",
+            "prize": 0
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 9,
+            "y": 4,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 9,
+            "y": 5,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 9,
+            "y": 6,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 9,
+            "y": 7,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 9,
+            "y": 8,
+            "sides": [
+                "WEST",
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        },
+        {
+            "x": 9,
+            "y": 9,
+            "sides": [
+                "EAST"
+            ],
+            "decisionPoint": false,
+            "challengeId": null,
+            "challenge": null,
+            "challengeParameters": null,
+            "prize": 0
+        }
+    ]
+}

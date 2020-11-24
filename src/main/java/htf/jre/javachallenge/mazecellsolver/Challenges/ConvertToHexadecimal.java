@@ -7,6 +7,13 @@ public class ConvertToHexadecimal implements Challenge{
 
     @Override
     public String solve(String params) {
-        return null;
+        StringBuffer sb = new StringBuffer();
+        //Converting string to character array
+        char ch[] = params.toCharArray();
+        for (char c : ch) {
+            String hexString = Integer.toHexString(c);
+            sb.append(hexString);
+        }
+        return sb.toString();
     }
 }
