@@ -4,6 +4,7 @@ import htf.jre.javachallenge.mazecellsolver.Challenges.Challenge;
 import htf.jre.javachallenge.mazecellsolver.common.Cell;
 import htf.jre.javachallenge.mazecellsolver.common.MazeResponse;
 import htf.jre.javachallenge.mazecellsolver.common.SolvedCell;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
@@ -12,6 +13,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+@Slf4j
 @Service
 public class ChallengeSolver {
     private final Map<String,Challenge> challengeMap;
@@ -25,11 +27,16 @@ public class ChallengeSolver {
 
         final Optional<Challenge> challengeOptional = Optional.ofNullable(challengeMap.get(cell.getChallenge()));
         final var solution = challengeOptional.map(challenge -> challenge.solve(cell.getChallengeParameters()));
+        final var answer = solution.orElse(null);
+        if (answer != null) {
+            log.info("Challenge ({}) with answer: {}", challengeOptional.get(), answer);
+        }
+
         return new SolvedCell(
                 cell.getX(),
                 cell.getY(),
                 cell.getChallengeId(),
-                solution.orElse(null)
+                answer
         );
     }
 
