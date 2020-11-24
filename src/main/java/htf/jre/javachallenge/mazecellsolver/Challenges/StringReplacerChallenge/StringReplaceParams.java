@@ -1,11 +1,8 @@
-package htf.jre.javachallenge.mazecellsolver.Challenges.StringReplacer;
+package htf.jre.javachallenge.mazecellsolver.Challenges.StringReplacerChallenge;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @AllArgsConstructor
 @NoArgsConstructor

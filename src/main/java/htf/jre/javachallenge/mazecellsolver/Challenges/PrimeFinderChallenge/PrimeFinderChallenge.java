@@ -1,4 +1,4 @@
-package htf.jre.javachallenge.mazecellsolver.Challenges.PrimeFinder;
+package htf.jre.javachallenge.mazecellsolver.Challenges.PrimeFinderChallenge;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import htf.jre.javachallenge.mazecellsolver.Challenges.Challenge;
@@ -6,12 +6,10 @@ import lombok.SneakyThrows;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Component("Find all the primes between the start and end index (both inclusive)")
-public class PrimeFinder implements Challenge {
+public class PrimeFinderChallenge implements Challenge {
 
     @SneakyThrows
     @Override

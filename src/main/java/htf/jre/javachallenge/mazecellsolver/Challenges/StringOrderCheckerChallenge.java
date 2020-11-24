@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 import java.util.Arrays;
 
 @Component("Is the following string in alphabetical order? (Use N or Y as answer)")
-public class StringOrderChecker implements Challenge {
+public class StringOrderCheckerChallenge implements Challenge {
     @Override
     public String solve(String params) {
         // length of the string

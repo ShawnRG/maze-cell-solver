@@ -1,4 +1,4 @@
-package htf.jre.javachallenge.mazecellsolver.Challenges.PrimeFinder;
+package htf.jre.javachallenge.mazecellsolver.Challenges.PrimeFinderChallenge;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

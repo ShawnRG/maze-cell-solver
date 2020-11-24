@@ -10,7 +10,7 @@ import java.util.Collections;
 import java.util.List;
 
 @Component("Find the missing numbers in the sequence. Return them as a comma-separated string")
-public class FibonacciSequence implements Challenge {
+public class FibonacciSequenceChallenge implements Challenge {
     @Override
     public Object solve(String params) {
         try {

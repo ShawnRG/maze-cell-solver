@@ -130,7 +130,7 @@ class ChallengeTester {
                 true,
                 "yada",
                 "Provide a string that matches the regex",
-                "[0-3]([a-c]|[e-g]{1,2}",
+                "[0-3]([a-c]|[e-g]{1,2})",
                 0
         );
 

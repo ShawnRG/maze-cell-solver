@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Base64;
 
 @Component("Decode the following String. It uses a quite common encoding, find out which!")
-public class Base64Decoder implements Challenge{
+public class Base64DecoderChallenge implements Challenge{
 
     @Override
     public String solve(String params) {

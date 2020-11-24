@@ -1,4 +1,4 @@
-package htf.jre.javachallenge.mazecellsolver.Challenges.MonthDayFinder;
+package htf.jre.javachallenge.mazecellsolver.Challenges.MonthDayFinderChallenge;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class MonthDayParams {
+class MonthDayParams {
     int month;
     int year;
 }

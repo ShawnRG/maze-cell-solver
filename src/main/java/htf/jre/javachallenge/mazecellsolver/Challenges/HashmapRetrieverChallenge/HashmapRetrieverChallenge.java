@@ -1,17 +1,14 @@
-package htf.jre.javachallenge.mazecellsolver.Challenges.HashmapRetriever;
+package htf.jre.javachallenge.mazecellsolver.Challenges.HashmapRetrieverChallenge;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.google.common.base.Splitter;
 import htf.jre.javachallenge.mazecellsolver.Challenges.Challenge;
 import lombok.SneakyThrows;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
-import java.util.Map;
 
 @Component("Return element at index of the given hashmap")
-public class HashmapRetriever implements Challenge {
+public class HashmapRetrieverChallenge implements Challenge {
     @SneakyThrows
     @Override
     public String solve(String params) {

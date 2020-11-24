@@ -1,4 +1,4 @@
-package htf.jre.javachallenge.mazecellsolver.Challenges.disarium;
+package htf.jre.javachallenge.mazecellsolver.Challenges.disariumChallenge;
 
 import htf.jre.javachallenge.mazecellsolver.Challenges.Challenge;
 import org.springframework.stereotype.Component;

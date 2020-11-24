@@ -1,4 +1,4 @@
-package htf.jre.javachallenge.mazecellsolver.Challenges.MonthDayFinder;
+package htf.jre.javachallenge.mazecellsolver.Challenges.MonthDayFinderChallenge;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import htf.jre.javachallenge.mazecellsolver.Challenges.Challenge;
@@ -11,7 +11,7 @@ import java.time.YearMonth;
 
 @Slf4j
 @Component("Answer is the first and last day of the month (MONDAY - SUNDAY) eg: MONDAY-FRIDAY")
-public class MonthDayFinder implements Challenge {
+public class MonthDayFinderChallenge implements Challenge {
 
     @SneakyThrows
     @Override

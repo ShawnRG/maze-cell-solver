@@ -8,22 +8,22 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class MazeCellSolverApplication implements CommandLineRunner {
 
-	public MazeCellSolverApplication(MazeCellSolver cellSolver) {
-		this.cellSolver = cellSolver;
-	}
+    private final MazeCellSolver cellSolver;
 
-	public static void main(String[] args) {
-		SpringApplication.run(MazeCellSolverApplication.class, args);
-	}
+    public MazeCellSolverApplication(MazeCellSolver cellSolver) {
+        this.cellSolver = cellSolver;
+    }
 
-	private final MazeCellSolver cellSolver;
+    public static void main(String[] args) {
+        SpringApplication.run(MazeCellSolverApplication.class, args);
+    }
 
-	@Override
-	public void run(String... args) throws Exception {
-	/*	while(true) {
-			cellSolver.run();
-			Thread.sleep(750);
-		}
+    @Override
+    public void run(String... args) throws Exception {
+        while (true) {
+            cellSolver.run();
+            Thread.sleep(750);
+        }
 
-	}
+    }
 }

@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 @Component("Decode the following string")
-public class MorseCodeMapper implements Challenge {
+public class MorseCodeMapperChallenge implements Challenge {
     Map<String, String> library = new HashMap<String, String>();
 
     void init(){

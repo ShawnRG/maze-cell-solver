@@ -1,4 +1,4 @@
-package htf.jre.javachallenge.mazecellsolver.Challenges.HashmapRetriever;
+package htf.jre.javachallenge.mazecellsolver.Challenges.HashmapRetrieverChallenge;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
