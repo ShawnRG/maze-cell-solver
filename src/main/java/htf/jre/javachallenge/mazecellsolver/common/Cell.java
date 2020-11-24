@@ -32,4 +32,8 @@ public class Cell {
     public Vector getVector() {
         return new Vector(x, y);
     }
+
+    public static boolean hasChallenge(Cell cell) {
+        return cell.getChallenge() != null;
+    }
 }

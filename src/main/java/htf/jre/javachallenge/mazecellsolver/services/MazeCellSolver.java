@@ -15,9 +15,11 @@ import java.util.stream.Collectors;
 @Slf4j
 public class MazeCellSolver {
     private final WebClient client;
+    private final ChallengeSolver challengeSolver;
 
-    public MazeCellSolver(WebClient client) {
+    public MazeCellSolver(WebClient client, ChallengeSolver challengeSolver) {
         this.client = client;
+        this.challengeSolver = challengeSolver;
     }
 
     public void run() {
@@ -27,12 +29,38 @@ public class MazeCellSolver {
         //log.info(maze.toString());
         final List<Cell> cellList = new MazeTraverser(maze).traverse();
 
-        if (cellList.stream().noneMatch(Cell::isDescisionPoint)) {
-            log.warn("FOUND ONE");
-            final var response = client.post().uri("/" + maze.getMazeId()).contentType(MediaType.APPLICATION_JSON).body(BodyInserters.fromValue(createResponse(cellList))).retrieve()
-                    .bodyToMono(String.class).block();
-            log.error(response);
+        if (cellList.stream().noneMatch(Cell::hasChallenge)) {
+            log.warn("No Challenges");
+            final MazeResponse mazeResponse = createResponse(cellList);
+            final String response = submitAnswer(maze, mazeResponse);
+            log.info(response);
+        } else {
+            log.info("Has challenges");
+            try {
+                final MazeResponse mazeResponse = challengeSolver.solveCells(cellList);
+                final String response = submitAnswer(maze, mazeResponse);
+                log.info(response);
+            } catch (NoChallengeFoundException e) {
+                log.error("Could not found challenge solver with name {}", e.getMessage());
+            }
+
         }
+    }
+
+
+    private String submitAnswer(Maze maze, MazeResponse mazeResponse) {
+        final var response = client.post().uri("/" + maze.getMazeId()).contentType(MediaType.APPLICATION_JSON).body(BodyInserters.fromValue(mazeResponse))
+                .exchangeToMono(clientResponse -> {
+                    if (clientResponse.statusCode().is5xxServerError()) {
+                        clientResponse.body((clientHttpResponse, context) -> {
+                            return clientHttpResponse.getBody();
+                        });
+                        return clientResponse.bodyToMono(String.class);
+                    }
+                    else
+                        return clientResponse.bodyToMono(String.class);
+                }).block();
+        return response;
     }
 
     private static MazeResponse createResponse(List<Cell> cells) {
