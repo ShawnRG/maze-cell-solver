@@ -12,6 +12,6 @@ import java.util.List;
 @Data
 class StringReplaceParams {
     int index;
-    ArrayList<String> arrayList;
+    String arrayList;
     String replacement;
 }

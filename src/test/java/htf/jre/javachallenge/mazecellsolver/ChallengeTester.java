@@ -9,6 +9,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+
 @SpringBootTest
 class ChallengeTester {
 
@@ -31,5 +34,59 @@ class ChallengeTester {
 
         System.out.println(solvedCell);
 
+    }
+
+    @Test
+    void testBase64Conversion(){
+        Cell cell = new Cell(
+                0,
+                0,
+                List.of("A", "B"),
+                true,
+                "yada",
+                "Decode the following String. It uses a quite common encoding, find out which!",
+                "YldmOWZMODhuMnRtUkxhalM1VjZiblFqVk1qZmRUdzd5UVF1dW9zTm5mUlU=",
+                0
+        );
+        SolvedCell solvedCell = challengeSolver.SolveCellChallenge(cell);
+
+        //Should be bWf9fL88n2tmRLajS5V6bnQjVMjfdTw7yQQuuosNnfRU
+        assertEquals("bWf9fL88n2tmRLajS5V6bnQjVMjfdTw7yQQuuosNnfRU",solvedCell.getAnswer());
+    }
+
+    @Test
+    void testPrimeFinder(){
+        Cell cell = new Cell(
+                0,
+                0,
+                List.of("A", "B"),
+                true,
+                "yada",
+                "Find all the primes between the start and end index (both inclusive)",
+                "{\"start\":48286,\"end\":48386}",
+                0
+        );
+        SolvedCell solvedCell = challengeSolver.SolveCellChallenge(cell);
+
+        System.out.println(solvedCell);
+
+    }
+
+    @Test
+    void testHexadecimalConversion(){
+        Cell cell = new Cell(
+                0,
+                0,
+                List.of("A", "B"),
+                true,
+                "yada",
+                "Convert the following String to hexadecimal value (Use a space delimiter between values)",
+                "UBHye7Csy5gp2EWVxrC",
+                0
+        );
+
+        SolvedCell solvedCell = challengeSolver.SolveCellChallenge(cell);
+
+        System.out.println(solvedCell);
     }
 }
